@@ -1,0 +1,25 @@
+﻿Loading data (samples)...
+GT entries for sample S1: 4559
+True pairs findable in sample: 923
+
+Blocking key recall analysis (n=923 true pairs):
+  country_match: 923 / 923 = 100.0%
+  first_word_name_match: 692 / 923 = 75.0%
+  first_2words_name_match: 509 / 923 = 55.1%
+  zip_match: 51 / 923 = 5.5%
+  any_num_overlap: 689 / 923 = 74.6%
+  name_trigram_sim_gt0.2: 850 / 923 = 92.1%
+  combined_trigram_sim_gt0.1: 919 / 923 = 99.6%
+
+Analyzing difficult pairs (name trigram sim < 0.2):
+  Hard pairs: 72
+    'Shakti Agro Limited' vs 'α¼╢α¼òα¡ìα¼ñα¼┐ α¼åα¼ùα¡ìα¼░α¡ï α¼▓α¼┐α¼«α¼┐α¼ƒα¡çα¼íα¡ì'  | addr: 'C/O Gurnav Singh Saluja, Beside Zudio, K' vs 'C/O GURNAV SINGH SALUJA, SADAR, Odisha' | India
+    'FPC Vanguard Greenfire PC' vs 'NYLAWEX'  | addr: '11818 Northwest Highway, Dallas, TX' vs 'DALLAS, NORTHWEST HWY, TX' | US
+    'Real Silver Estate Limited' vs 'α¬░α¬┐α¬»α¬▓ α¬╕α¬┐α¬▓α½ìα¬╡α¬░ α¬Åα¬╕α½ìα¬ƒα½çα¬ƒ α¬▓α¬┐α¬«α¬┐α¬ƒα½çα¬í'  | addr: 'Survey No. 99P2, Village: Khirai Maliya,' vs 'Survey No. 99P2, Village: Khirai Maliya,' | India
+    'Maa Investment Private Limited' vs 'α░«α░╛ α░çα░¿α▒ìα░╡α▒åα░╕α▒ìα░ƒα▒ìΓÇîα░«α▒åα░éα░ƒα▒ì α░¬α▒ìα░░α▒êα░╡α▒çα░ƒα▒ì α░▓α░┐α░«α░┐α░ƒα▒åα░íα▒ì'  | addr: 'H No 87/1402-15, Dhanalakshmi Nagar, Kur' vs 'H NO 8-7/1402-15, DHANALAKSHMI NAGAR, KU' | India
+    'Shree Vision Systems Private Limited' vs 'αñ╢αÑìαñ░αÑÇ αñ╡αñ┐αñ£αñ¿ αñ╕αñ┐αñ╕αÑìαñƒαñ«αÑìαñ╕ αñ¬αÑìαñ░αñ╛αñçαñ╡αÑçαñƒ αñ▓αñ┐αñ«αñ┐αñƒαÑçαñí'  | addr: 'Block No C/13St Plus D Chs Mulund (W), M' vs 'BLOCK NO C/13ST PLUS D CHS MULUND (W), G' | India
+    'Fortune International Private Limited' vs 'αª½αª░αªÜαºüαª¿ αªçαª¿αºìαªƒαª╛αª░αª¿αºìαª»αª╛αª╢αª¿αª╛αª▓ αª¬αºìαª░αª╛αªçαª¡αºçαªƒ αª▓αª┐αª«αª┐αªƒαºçαªí'  | addr: '19 British India Street 2Ndfloor P S Har' vs 'Door No 19 British India Street 2Ndfloor' | India
+    'Life Consultants Private Limited' vs 'αñ▓αñ╛αñçαñ½ αñòαñéαñ╕αñ▓αÑìαñƒαÑçαñéαñƒαÑìαñ╕ αñ¬αÑìαñ░αñ╛αñçαñ╡αÑçαñƒ αñ▓αñ┐αñ«αñ┐αñƒαÑçαñí'  | addr: 'Unit No. 03/320, Paras Trade Center, Gwa' vs 'UNIT NO. 03/320, PARAS TRADE CENTER, GWA' | India
+    'Harris Tankers' vs 'Miraonyx'  | addr: '15703 Edisto Drive, Austin, TX' vs '15703 Edisto Dr, Ausstin, Texas' | US
+    'Sai Services Private Limited' vs 'α▓╕α▓╛α▓»α▓┐ α▓╕α▓░α│ìα▓╡α▓┐α▓╕α▓╕α│ì α▓¬α│ìα▓░α│êα▓╡α│çα▓ƒα│ì α▓▓α▓┐α▓«α▓┐α▓ƒα│åα▓íα│ì'  | addr: '# 1089, Geetha Road, 1St Floor, V.V.Road' vs 'Door No 1089, Geetha Road, 1St Floor, V.' | India
+    'Vijay Constructions' vs 'α¬╡α¬┐α¬£α¬» α¬òα¬¿α½ìα¬╕α½ìα¬ƒα½ìα¬░α¬òα½ìα¬╢α¬¿α½ìα¬╕'  | addr: 'Satellite, Gujarat, Aditya Plaza. Nr. Ka' vs 'ADITYA PLAZA. NR. KARNAVATI APPARTMENTS.' | India

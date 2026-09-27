@@ -1,0 +1,22 @@
+﻿S1 shape: (2206821, 4)
+S2 shape: (5034616, 4)
+S3 shape: (5285603, 4)
+GT shape: (2206821, 2)
+
+S1 country value counts: {'US': 1323633, 'India': 883188}
+S2 country value counts: {'US': 3016817, 'India': 2017799}
+S3 country value counts: {'US': 3170056, 'India': 2115547}
+
+GT null matched_entity_ids: 123247
+GT non-null matched_entity_ids: 2083574
+
+Matches per S1 entity (non-singletons):
+count    2.083574e+06
+mean     3.665992e+00
+std      1.526294e+00
+min      1.000000e+00
+25%      3.000000e+00
+50%      4.000000e+00
+75%      5.000000e+00
+max      1.100000e+01
+Name: matched_entity_ids, dtype: float64

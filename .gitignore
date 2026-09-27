@@ -1,0 +1,27 @@
+# Large Data Files
+*.tsv
+*.csv
+*.zip
+*.tar.gz
+*.pkl
+*.parquet
+*.h5
+
+# Dataset & Submission folders
+dataset/
+**/dataset/**
+amazon_ml_dataset.zip
+final_submission/
+FINALLLL/
+scratch/
+output/
+checkpoints/
+
+# Python & IDE
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.log
+.vscode/
+.idea/

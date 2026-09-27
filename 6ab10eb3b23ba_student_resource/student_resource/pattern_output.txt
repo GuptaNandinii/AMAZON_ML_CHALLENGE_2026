@@ -1,0 +1,4 @@
+﻿S1 nulls: {'entity_id': 0, 'business_name': 0, 'business_address': 0, 'country': 0}
+S2 nulls: {'entity_id': 0, 'business_name': 0, 'business_address': 6641, 'country': 0}
+S3 nulls: {'entity_id': 0, 'business_name': 1, 'business_address': 6631, 'country': 0}
+
